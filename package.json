@@ -1,0 +1,24 @@
+{
+  "name": "badminton",
+  "version": "1.0.0",
+  "description": "Game of Badminton. Made with Phaser JS and Colyseus",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlejandroBlanco2001/Badminton.git"
+  },
+  "keywords": [
+    "Badminton",
+    "Node",
+    "JS"
+  ],
+  "author": "Isaac Blanco",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AlejandroBlanco2001/Badminton/issues"
+  },
+  "homepage": "https://github.com/AlejandroBlanco2001/Badminton#readme"
+}
