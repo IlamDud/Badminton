@@ -4,6 +4,8 @@
   "description": "Game of Badminton. Made with Phaser JS and Colyseus",
   "main": "index.js",
   "scripts": {
+    "start": "parcel src/client/index.html -p 8000",
+    "start-server": "start src/server index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,5 +22,16 @@
   "bugs": {
     "url": "https://github.com/AlejandroBlanco2001/Badminton/issues"
   },
-  "homepage": "https://github.com/AlejandroBlanco2001/Badminton#readme"
+  "homepage": "https://github.com/AlejandroBlanco2001/Badminton#readme",
+  "devDependencies": {
+    "@colyseus/loadtest": "^0.14.0"
+  },
+  "dependencies": {
+    "@colyseus/monitor": "^0.12.2",
+    "cors": "^2.8.5",
+    "express-jwt": "^5.3.1",
+    "colyseus": "^0.14.2",
+    "express": "^4.17.1",
+    "phaser": "^3.24.1"
+  }
 }
