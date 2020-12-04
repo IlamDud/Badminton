@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "parcel src/client/index.html -p 8000",
-    "start-server": "start src/server index.js",
+    "start-server": "node src/server/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -24,14 +24,18 @@
   },
   "homepage": "https://github.com/AlejandroBlanco2001/Badminton#readme",
   "devDependencies": {
+    "@babel/plugin-transform-runtime": "^7.12.1",
     "@colyseus/loadtest": "^0.14.0"
   },
   "dependencies": {
+    "@babel/runtime": "^7.12.5",
     "@colyseus/monitor": "^0.12.2",
-    "cors": "^2.8.5",
-    "express-jwt": "^5.3.1",
     "colyseus": "^0.14.2",
+    "colyseus.js": "^0.14.1",
+    "cors": "^2.8.5",
     "express": "^4.17.1",
-    "phaser": "^3.24.1"
+    "express-jwt": "^5.3.1",
+    "phaser": "^3.24.1",
+    "regenerator-runtime": "^0.13.7"
   }
 }

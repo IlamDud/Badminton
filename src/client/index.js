@@ -1,10 +1,12 @@
-import Phaser from "phaser"
+import 'regenerator-runtime/runtime'
+import Phaser from 'phaser'
+import MainScreen from './scenes/MainScreen'
 
 const config = {
     type: Phaser.AUTO,
     width: 1080,
     height: 720,
-    scene: [],
+    scene: [MainScreen],
     physics: {
         default: 'arcade',
         arcade: {
